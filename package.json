@@ -1,0 +1,11 @@
+{
+  "author": "Clean-Software",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "beecrowd"
+  ],
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  }
+}
