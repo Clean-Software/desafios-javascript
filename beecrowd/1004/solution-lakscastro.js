@@ -1,10 +1,14 @@
 const input = require("fs").readFileSync("/dev/stdin", "utf8");
-const lines = input.split("\n");
 
-const a = Number(lines.shift());
-const b = Number(lines.shift());
+function prod() {
+  const lines = input.split("\n");
+  const a = Number(lines.shift());
+  const b = Number(lines.shift());
 
-const produto = a * b;
+  return a * b;
+}
 
-const mensagem = `PROD = ${produto}`;
+const mensagem = `PROD = ${prod()}`;
 console.log(mensagem);
+
+module.exports = prod;

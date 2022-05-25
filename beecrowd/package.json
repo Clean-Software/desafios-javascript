@@ -1,0 +1,15 @@
+{
+  "name": "beecrowd",
+  "version": "1.0.0",
+  "description": "It consists of N solutions for each question/problem, in order to find new ways to solve the same problem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
